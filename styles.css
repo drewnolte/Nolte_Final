@@ -1,0 +1,199 @@
+*{
+    width: 1280px;
+    margin: auto;
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+body{
+    background-color: rgba(172, 155, 208, 0.437);
+}
+
+
+nav{
+    padding: 10px;
+    
+}
+
+ul {
+    margin:0;
+    padding:0;
+    list-style-type:none;
+    text-align:center;
+    padding-bottom: 25px;
+    font-weight: bold;
+}
+
+li {
+    display:inline;
+    padding: 50px;
+    text-decoration: underline;
+    font-size: large;
+}
+
+nav a:hover{
+    background-color: yellow;
+}
+
+
+h1{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(121, 140, 249);
+}
+
+main{
+    background-color: rgba(122, 111, 220, 0.392);
+    text-align: center;
+    padding-bottom: 7px;
+}
+
+h2{
+    padding-top: 5px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+main a{
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    font-size: larger;
+    
+}
+
+#cater{
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+}
+
+#cater p{
+    padding-top: 5px;
+    inline-size: 300px;
+    overflow-wrap: break-word;
+}
+
+
+
+#local_foods{
+    float: left;
+    width: 50%;
+
+}
+
+#chef{
+    float: right;
+    width: 50%;
+}
+
+
+#local_foods p{
+    text-align: center;
+    inline-size: 300px;
+    overflow-wrap: break-word;
+
+
+}
+
+
+#chef p{
+    text-align: center;
+    inline-size: 300px;
+    overflow-wrap: break-word;
+
+}
+
+#local_foods h3{
+    text-align: center;
+    inline-size: 500px;
+    overflow-wrap: break-word;
+    font-weight: bold;
+    
+}
+
+
+#chef h3{
+    text-align: center;
+    inline-size: 500px;
+    overflow-wrap: break-word;
+    font-weight: bold;
+
+}
+
+
+#local_foods img{
+    width: 600px;
+    height: auto;
+    float: left;
+}
+
+#chef img{
+    width: 600px;
+    height: auto;
+    float: right;
+}
+
+
+footer{
+    padding-top: 800px;
+    text-align: center;
+    padding-bottom: 30px
+}
+
+footer p{
+    background-color: rgba(122, 111, 220, 0.392);
+    font-weight: bold;
+    color: white;
+    padding-top:2px;
+    padding-bottom: 10px;
+}
+
+
+
+#contact img{
+    width: 600px;
+    height: auto;
+}
+
+#contact p{
+    text-align: center;
+    inline-size: 300px;
+    overflow-wrap: break-word;
+    padding-bottom: 15px;
+    padding-top: 7px;
+}
+
+
+
+/* FORM STYLES */
+
+* {
+    box-sizing: border-box;
+}
+  
+label {
+    text-align: left;
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+  
+
+input, textarea, select{
+    width: 50%;
+}  
+
+label{
+    text-align: center;
+    text-decoration: underline;
+}
